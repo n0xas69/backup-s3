@@ -1,4 +1,4 @@
-Script python permettant de sauvegarder des fichiers sur un backup storage scaleway utilisant le protocole S3
+Script python permettant de sauvegarder des fichiers depuis un système linux sur un backup storage scaleway utilisant le protocole S3.
 
 plus d'info : https://www.scaleway.com/en/docs/object-storage-with-s3cmd/
 
@@ -33,5 +33,5 @@ secret_key =
 
 ```
 
-Configurer les variables du script et il est prêt à être utilisé.
+Configurer les variables du script "backup.py" et il est prêt à être utilisé.
 
