@@ -10,7 +10,7 @@ date = datetime.datetime.now().strftime("%Y-%m-%d")
 #############"" CONFIGURATION #############
 #########################################
 
-backup_folder = ["/data/VPN", "/data/cheatsheet"]
+backup_folder = ["/var/lib/dokuwiki/data"]
 bucket = "backup-noxas"
 retention = 5
 
