@@ -10,7 +10,7 @@ Installer s3cmd :
 # télécharger s3cmd
 pip3 install s3cmd
 
-# déplacer le binaire
+# déplacer le binaire si nécessaire
 mv ~/.local/bin/s3cmd /usr/local/bin
 ```
 
