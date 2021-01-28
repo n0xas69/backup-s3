@@ -21,7 +21,7 @@ vim ~/.s3cfg
 
 ``` init
 [default]
-# Object Storage Region NL-AMS
+# Object Storage Region
 host_base = https://s3.fr-par.scw.cloud
 host_bucket = https://bucket.s3.fr-par.scw.cloud
 bucket_location = fr-par
