@@ -33,7 +33,7 @@ def check_retention():
     count = len(out)
 
     if count >= retention:
-        d = datetime.datetime.today() - datetime.timedelta(days=1)
+        d = datetime.datetime.today() - datetime.timedelta(days=retention)
         date2 = d.strftime("%Y-%m-%d")
         cmd.run(f"s3cmd del s3://{bucket}/backup-{date2}.tar.gz", shell=True)
 
